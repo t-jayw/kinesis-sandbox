@@ -1,0 +1,13 @@
+2: ec2 to run python to generate data for stream? 
+
+
+1: 
+tf kinesis stream / lambda fx / iams for cloud watch. kinesis triggers lambda 
+really basic tut: https://medium.com/cloud-tidbits/terraform-process-kinesis-data-stream-records-with-aws-lambda-2c796aa58787
+
+aws kinesis put-record --stream-name terraform-kinesis-stream --partition-key 123 --data "Zm9vYmFyYmF6Cg==" --profile tylerw
+
+ aws kinesis get-shard-iterator --shard-id shardId-000000000000 --shard-iterator-type TRIM_HORIZON --stream-name terraform-kinesis-stream --profile tylerw
+
+ aws kinesis get-records --shard-iterator AAAAAAAAAAH1YKpH/hDBVkiSkXMnV0J/vO+tzVNVt1AngHWYSGjrJ3sWfAQM32f5Cf0fZKVYEw3TG2umn7hrVnzBkhlOShk2ch3FD5V78fs5ikOk3z0geE6pguhmEvKP7GjQIpBHImKkTtG1A5gCE4IUAs6dipUsOfrGv3ccc6s2IIPEyvPtXbFon3SQepgo0pkLW9g/m6WtmGiGPc1as5dkRTFzpJHQ/NhBW0KWaWLsINnLa3uWl6CaH6E5UGUQ58dN7n3RYaI= --profile tylerw
+
