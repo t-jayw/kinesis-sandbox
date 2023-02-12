@@ -3,10 +3,15 @@
 need VPC
 cidrsubnet docs https://ntwobike.medium.com/how-cidrsubnet-works-in-terraform-f6ccd8e1838f
 
-
 via: https://medium.com/@hmalgewatta/setting-up-an-aws-ec2-instance-with-ssh-access-using-terraform-c336c812322f
 
 have an EC2 w/ associated networking spin up that I can ssh into
+
+> chmod 400 myterrakey.pem
+> ssh -i "myterrakey.pem" ubuntu@ec2-18-233-118-239.compute-1.amazonaws.com
+
+breezed through the networking stuff
+
 
 
 1: 
