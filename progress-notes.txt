@@ -1,5 +1,13 @@
 2: ec2 to run python to generate data for stream? 
 
+need VPC
+cidrsubnet docs https://ntwobike.medium.com/how-cidrsubnet-works-in-terraform-f6ccd8e1838f
+
+
+via: https://medium.com/@hmalgewatta/setting-up-an-aws-ec2-instance-with-ssh-access-using-terraform-c336c812322f
+
+have an EC2 w/ associated networking spin up that I can ssh into
+
 
 1: 
 tf kinesis stream / lambda fx / iams for cloud watch. kinesis triggers lambda 
