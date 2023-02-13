@@ -1,6 +1,8 @@
 3: 
 Python scripts to produce/consume to the stream
 
+setup firehose to consume and write to s3
+
 2: ec2 to run python to generate data for stream? 
 
 need VPC
