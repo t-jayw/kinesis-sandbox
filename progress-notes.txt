@@ -1,3 +1,6 @@
+3: 
+Python scripts to produce/consume to the stream
+
 2: ec2 to run python to generate data for stream? 
 
 need VPC

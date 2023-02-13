@@ -9,7 +9,7 @@ resource "aws_instance" "app_server" {
 
   connection {
     type        = "ssh"
-    user        = "asdf"
+    user        = "ubuntu"
     private_key = tls_private_key.oskey.private_key_pem
     host        = aws_instance.app_server[0].public_ip
   }
